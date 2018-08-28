@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.547f3268.css",
-  "main.css.map": "static/css/main.547f3268.css.map",
-  "main.js": "static/js/main.8ab1dbcb.js",
-  "main.js.map": "static/js/main.8ab1dbcb.js.map",
+  "main.css": "static/css/main.ab1e8c70.css",
+  "main.css.map": "static/css/main.ab1e8c70.css.map",
+  "main.js": "static/js/main.a8220306.js",
+  "main.js.map": "static/js/main.a8220306.js.map",
   "static/media/Roboto-Bold.eot": "static/media/Roboto-Bold.ecdd509c.eot",
   "static/media/Roboto-Bold.ttf": "static/media/Roboto-Bold.e31fcf18.ttf",
   "static/media/Roboto-Bold.woff": "static/media/Roboto-Bold.dc81817d.woff",
@@ -23,6 +23,7 @@
   "static/media/Roboto-Thin.ttf": "static/media/Roboto-Thin.94998475.ttf",
   "static/media/Roboto-Thin.woff": "static/media/Roboto-Thin.7500519d.woff",
   "static/media/Roboto-Thin.woff2": "static/media/Roboto-Thin.954bbdeb.woff2",
+  "static/media/abstract-astronomy.jpg": "static/media/abstract-astronomy.5f3482a2.jpg",
   "static/media/arrow_left.svg": "static/media/arrow_left.270f72df.svg",
   "static/media/arrow_right.svg": "static/media/arrow_right.d9ccc77c.svg",
   "static/media/code-icon-wht.svg": "static/media/code-icon-wht.7ae4c361.svg",
@@ -31,7 +32,8 @@
   "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
   "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
-  "static/media/pnpc-logo-2018-v2.png": "static/media/pnpc-logo-2018-v2.ddda7e26.png",
-  "static/media/ritu-chopra-portfolio-thumbnail.png": "static/media/ritu-chopra-portfolio-thumbnail.fdaa6610.png",
+  "static/media/pnpc-logo.svg": "static/media/pnpc-logo.821210e2.svg",
+  "static/media/rituchopra-logo.svg": "static/media/rituchopra-logo.e5d59108.svg",
+  "static/media/searchcannon-logo.png": "static/media/searchcannon-logo.19dc416d.png",
   "static/media/trianglify.png": "static/media/trianglify.5eca8d16.png"
 }
