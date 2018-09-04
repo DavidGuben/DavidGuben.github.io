@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.ab1e8c70.css",
-  "main.css.map": "static/css/main.ab1e8c70.css.map",
-  "main.js": "static/js/main.a8220306.js",
-  "main.js.map": "static/js/main.a8220306.js.map",
+  "main.css": "static/css/main.ab8ff111.css",
+  "main.css.map": "static/css/main.ab8ff111.css.map",
+  "main.js": "static/js/main.f645311c.js",
+  "main.js.map": "static/js/main.f645311c.js.map",
   "static/media/Roboto-Bold.eot": "static/media/Roboto-Bold.ecdd509c.eot",
   "static/media/Roboto-Bold.ttf": "static/media/Roboto-Bold.e31fcf18.ttf",
   "static/media/Roboto-Bold.woff": "static/media/Roboto-Bold.dc81817d.woff",
@@ -32,8 +32,9 @@
   "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
   "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
+  "static/media/mirrorlessshot.svg": "static/media/mirrorlessshot.33407019.svg",
   "static/media/pnpc-logo.svg": "static/media/pnpc-logo.821210e2.svg",
   "static/media/rituchopra-logo.svg": "static/media/rituchopra-logo.e5d59108.svg",
-  "static/media/searchcannon-logo.png": "static/media/searchcannon-logo.19dc416d.png",
+  "static/media/searchcannon-logo.png": "static/media/searchcannon-logo.3d8475b2.png",
   "static/media/trianglify.png": "static/media/trianglify.5eca8d16.png"
 }
