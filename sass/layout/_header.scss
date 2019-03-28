@@ -1,0 +1,51 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)),
+        url(../img/daylight.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    }
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+        background-color: $color-white;
+        text-align: center;
+        animation: moveInLeft 1s ease-out;
+        animation-delay: 1.2s;
+        animation-fill-mode: backwards;
+    }
+
+    &__logo {
+        position: relative;
+        height: 8rem;
+        top: 1rem;
+        transition: all .2s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    
+    &__text-box {
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
