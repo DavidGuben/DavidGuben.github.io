@@ -296,7 +296,7 @@ body {
   margin-top: 2rem;
   text-align: center;
   position: relative;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%) fixed, radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) fixed #989898 fixed;
+  background: #989898;
   background-blend-mode: multiply,multiply;
   background-size: cover;
   background-repeat: no-repeat; }
