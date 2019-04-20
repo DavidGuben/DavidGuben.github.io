@@ -413,6 +413,12 @@ body {
       background-image: url(../img/device-tablet-masked-trilio.jpg); }
     .card__picture--3 {
       background-image: url(../img/device-tablet-masked-natours.jpg); }
+    .card__picture--4 {
+      background-image: url(../img/device-tablet-masked-natours.jpg); }
+    .card__picture--5 {
+      background-image: url(../img/device-tablet-masked-natours.jpg); }
+    .card__picture--6 {
+      background-image: url(../img/device-tablet-masked-natours.jpg); }
   .card__details {
     grid-row: 3 / 4;
     grid-column: 1 / 9;
