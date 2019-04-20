@@ -218,6 +218,9 @@ body {
   list-style: none;
   text-align: center;
   width: 100%; }
+  @media only screen and (max-width: 600px) {
+    .navigation__list {
+      top: 22rem; } }
 
 .navigation__item {
   margin: 1rem; }
@@ -297,7 +300,7 @@ body {
   margin-top: 2rem;
   text-align: center;
   position: relative;
-  background-blend-mode: multiply,multiply;
+  background-blend-mode: multiply, multiply;
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -325,7 +328,7 @@ body {
       grid-template-rows: repeat(6, 30rem);
       grid-auto-flow: row;
       grid-auto-rows: auto;
-      grid-gap: 3rem;
+      grid-gap: 4rem;
       padding-left: 7rem;
       padding-right: 7rem;
       top: 1rem; } }
@@ -389,7 +392,11 @@ body {
     -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
     -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
     box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-    border-radius: 5px; }
+    border-radius: .7rem;
+    padding-bottom: 2rem; }
+    @media only screen and (max-width: 600px) {
+      .card__picture {
+        transform: scale(1.1) translateY(-0.7rem); } }
     .card__picture:hover, .card__picture:active {
       border: 5px solid #B38485;
       transform: scale(1.1) translateY(-10px); }
@@ -422,6 +429,9 @@ body {
       .card__details-heading--span:hover {
         color: #B38485;
         letter-spacing: .3rem; }
+      @media only screen and (max-width: 600px) {
+        .card__details-heading--span {
+          font-size: 3rem; } }
     .card__details-tech {
       list-style: none;
       font-size: 1.4rem;
@@ -436,6 +446,9 @@ body {
         color: #B38485; }
       .card__details-tech li:not(:last-child) {
         padding-right: 1rem; }
+        @media only screen and (max-width: 600px) {
+          .card__details-tech li:not(:last-child) {
+            padding-right: 2.5rem; } }
     .card__details-btn {
       color: #fff;
       padding: 5px;
@@ -453,6 +466,10 @@ body {
       cursor: pointer; }
       .card__details-btn:hover {
         transform: scale(1.1); }
+      @media only screen and (max-width: 600px) {
+        .card__details-btn {
+          font-size: 2.5rem;
+          width: 18rem; } }
   .card__cta {
     grid-column: 7 / 3;
     position: absolute;

@@ -67,6 +67,10 @@
         list-style: none;
         text-align: center;
         width: 100%;
+
+        @include respond(phone) {
+            top: 22rem;
+        }
     }
     
 

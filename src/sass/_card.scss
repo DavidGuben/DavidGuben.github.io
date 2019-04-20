@@ -2,17 +2,17 @@
     margin-top: 2rem;
     text-align: center;
     position: relative;
-    background-blend-mode: multiply,multiply;
+    background-blend-mode: multiply, multiply;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 .card-container {
     display: grid;
     grid-template-columns: .5fr .5fr .5fr;
     grid-template-rows: 30rem 30rem;
-    
+
     grid-row-gap: 4rem;
     grid-column-gap: 10rem;
     position: relative;
@@ -27,18 +27,17 @@
         grid-gap: 5rem;
         padding: 3rem;
     }
-    
+
     @include respond(phone) {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 30rem);
         grid-auto-flow: row;
         grid-auto-rows: auto;
-        grid-gap: 3rem;
+        grid-gap: 4rem;
         padding-left: 7rem;
         padding-right: 7rem;
         top: 1rem;
-        
     }
 }
 
@@ -50,7 +49,7 @@
     font-size: 20px;
     position: relative;
     transition: all .2s ease-in-out;
-    
+
 
     &:hover {
         transform: translateY(-10px);
@@ -65,7 +64,7 @@
         width: 100%;
         backface-visibility: hidden;
         border-radius: 3px;
-        
+
         box-shadow: $shadow-1;
 
         &--front {
@@ -84,11 +83,13 @@
             grid-template-rows: repeat(3, 1fr);
 
             &-1 {
-                background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);      
+                background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
             }
+
             &-2 {
-                background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);      
+                background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
             }
+
             &-3 {
                 background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
             }
@@ -117,24 +118,30 @@
         background-position: top;
         background-repeat: no-repeat;
         transition: all .3s ease-in-out;
-        -webkit-box-shadow: 0px 13px 20px -10px rgba(0,0,0,0.18);
-        -moz-box-shadow: 0px 13px 20px -10px rgba(0,0,0,0.18);
-        box-shadow: 0px 13px 20px -10px rgba(0,0,0,0.18);
-        border-radius: 5px;
-        
+        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
+        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
+        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
+        border-radius: .7rem;
+        padding-bottom: 2rem;
+
+        @include respond(phone) {
+            transform: scale(1.1) translateY(-.7rem);
+        }
 
         &:hover,
         &:active {
             border: 5px solid $color-primary-hilight;
             transform: scale(1.1) translateY(-10px);
         }
-        
+
         &--1 {
-            background-image: url(../img/device-tablet-masked-natours.jpg);  
+            background-image: url(../img/device-tablet-masked-natours.jpg);
         }
+
         &--2 {
-            background-image: url(../img/device-tablet-masked-trilio.jpg);  
+            background-image: url(../img/device-tablet-masked-trilio.jpg);
         }
+
         &--3 {
             background-image: url(../img/device-tablet-masked-natours.jpg);
         }
@@ -147,7 +154,6 @@
         color: $color-white;
         cursor: default;
         padding-bottom: 2rem;
-        
 
         &-heading--span {
             display: block;
@@ -163,13 +169,18 @@
             text-align: center;
             transition: all .2s ease-in-out;
             margin: 0 auto;
-            
+
 
             &:hover {
                 color: $color-primary-hilight;
                 letter-spacing: .3rem;
             }
-            
+
+            @include respond(phone) {
+                font-size: 3rem;
+
+            }
+
         }
 
         &-tech {
@@ -184,13 +195,17 @@
         &-tech li {
             display: inline-block;
             transition: all .3s ease-in-out;
-            
+
             &:hover {
                 color: $color-primary-hilight;
             }
 
             &:not(:last-child) {
                 padding-right: 1rem;
+
+                @include respond(phone) {
+                    padding-right: 2.5rem;
+                }
             }
         }
 
@@ -209,14 +224,19 @@
             display: inline-block;
             text-shadow: 0px 1px #666;
             cursor: pointer;
-            
+
 
             &:hover {
                 transform: scale(1.1);
             }
+
+            @include respond(phone) {
+                font-size: 2.5rem;
+                width: 18rem;
+            }
         }
-        
-    
+
+
     }
 
     &__cta {
