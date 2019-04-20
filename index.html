@@ -1,37 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-
-    <link href="css/icon-font.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <head>
-        <title>2019 Folio</title>
+    <!--<link href="css/icon-font.css" rel="stylesheet">-->
+    <link href="src/css/style.css" rel="stylesheet">
+        <title>Folio | 2019</title>
     </head>
     <body>
-
-        <div class="navigation">
-            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-
+        <div class="navigation" style="transition: all .2s;">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle" onclick="toggleNaviDisplay()">
+        
             <label for="navi-toggle" class="navigation__button">
-                <span class="navigation__icon">&nbsp;</span>
+                <span class="navigation__icon"></span>
             </label>
+        
+            <div class="navigation__background"></div>
+                <nav class="navigation__nav">
+                    <ul class="navigation__list" id="navi-list" style="display:none;">
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>Contact me</a></li>
+                        <li class="navigation__item"><a href="https://github.com/DavidGuben" class="navigation__link" target="_blank"><span>03</span>GitHub</a></li>
+                        <li class="navigation__item"><a href="https://www.linkedin.com/in/david-guben-79b3063b/" class="navigation__link" target="_blank"><span>04</span>Linkedin</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container">
 
-            <div class="navigation__background">&nbsp;</div>
+                <header class="header">
+                    <h1><span class="header__heading">Projects</span></h1>
+                </header>
 
-            <nav class="navigation__nav">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01</span>About us</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
-                </ul>
-            </nav>
-        </div>
+                <main class="card-container">
+                    
+                    <div class="card">
+                        <!-- <a href="https://davidguben.github.io/natours-scss"> -->
+                        <div id="card__side--front-1" class="card__side card__side--front card__side--front-1">
+                                
+                            <div class="card__picture card__picture--1">
+                                
+                            </div>
+                            
+                            <div class="card__details">
+                                <span class="card__details-heading--span">
+                                    Natours
+                                </span>
+                                <ul class="card__details-tech">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                                <button onclick=flipCard1() class="card__details-btn">Read more</button>
+                            </div>
+                        
+                        </div>
+                        <div id="card__side--back-1" class="card__side card__side--back card__side--back-1">
+                            <div class="card__cta">
+                                Visit site
+                                <button onclick=flipCardBack1() class="card__details-btn">Go back</button>
+                            </div>
+                        </div>
+                        <!-- </a> -->
+                    </div>
+                    
+                    <div class="card">
+                        <!-- <a href="https://davidguben.github.io/trilio/"> -->
+                        <div class="card__side card__side--front card__side--front-2" id="card__side--front-2">
+                            <div class="card__picture card__picture--2">
+                                
+                            </div>
 
+                            <div class="card__details">
+                                <span class="card__details-heading--span">
+                                    Trilio
+                                </span>
+                                <ul class="card__details-tech">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                                <button onclick=flipCard2() class="card__details-btn">Read more</button>
+                            </div>
+                        </div>
+                        
+                        <div class="card__side card__side--back card__side--back-2" id="card__side--back-2">
+                            <div class="card__cta">
+                                Visit site
+                                <button onclick=flipCardBack2() class="card__details-btn">Go back</button>
+                            </div>
+                        </div>
+                        <!-- </a> -->
+                    </div>
+                    
+                    <div class="card">
+                        <!-- <a href="https://davidguben.github.io/nexter/"> -->
+                        <div class="card__side card__side--front card__side--front-3" id="card__side--front-3">
+                            <div class="card__picture card__picture--3">
+                               
+                            </div>
+                        
+                            <div class="card__details">
+                                <span class="card__details-heading--span">
+                                    Nexter
+                                </span>
+                                <ul class="card__details-tech">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                                <button onclick=flipCard3() class="card__details-btn">Read more</button>
+                            </div>
+
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3" id="card__side--back-3">
+                            <div class="card__cta">
+                                Visit site
+                                <button onclick=flipCardBack3() class="card__details-btn">Go back</button>
+                            </div>
+                        </div>
+                        <!-- </a> -->
+                    </div>
+                    
+                    <div class="card">
+                        <!-- <a href="#"> -->
+                        <div class="card__side card__side--front card__side--front-4" id="card__side--front-4">
+                            <div class="card__picture card__picture--4">
+                                
+                            </div>
+
+                            <div class="card__details">
+                                <span class="card__details-heading--span">
+                                    Vidrent
+                                </span>
+                                <ul class="card__details-tech">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                                <button onclick=flipCard4() class="card__details-btn">Read more</button>
+                            </div>
+                        
+                        </div>
+                        <div class="card__side card__side--back card__side--back-4" id="card__side--back-4">
+                            <div class="card__cta">
+                                Visit site
+                                <button onclick=flipCardBack4() class="card__details-btn">Go back</button>
+                            </div>
+                        </div>
+                        <!-- </a> -->
+                    </div>
+                    
+                    <div class="card">
+                        <!-- <a href="https://www.rituchopra.com/books"> -->
+                        <div class="card__side card__side--front card__side--front-5" id="card__side--front-5">
+                            <div class="card__picture card__picture--5">
+                                
+                            </div>
+
+                            <div class="card__details">
+                                <span class="card__details-heading--span">
+                                    Ritu Chopra
+                                </span>
+                                <ul class="card__details-tech">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                                <button onclick=flipCard5() class="card__details-btn">Read more</button>
+                            </div>
+                        
+                        </div>
+                        <div class="card__side card__side--back card__side--back-5" id="card__side--back-5">
+                            <div class="card__cta">
+                                Visit site
+                                <button onclick=flipCardBack5() class="card__details-btn">Go back</button>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    
+                    <div class="card">
+                        <!-- <a href="https://www.pawsnposecuttery.com"> -->
+                        <div class="card__side card__side--front card__side--front-6" id="card__side--front-6">
+                            <div class="card__picture card__picture--6">
+                                
+                            </div>
+
+                            <div class="card__details">
+                                <span class="card__details-heading--span">
+                                    PawsNPose
+                                </span>
+                                <ul class="card__details-tech">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                                <button onclick=flipCard6() class="card__details-btn">Read more</button>
+                            </div>
+                        
+                        </div>
+                        <div class="card__side card__side--back card__side--back-6" id="card__side--back-6">
+                            <div class="card__cta">
+                                Visit site
+                                <button onclick=flipCardBack6() class="card__details-btn">Go back</button>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    
+                </main>
+
+                <footer class="footer">
+                    <a href="#" class="footer--copyright">&copy; 2019 David Guben</a>
+                </footer>
+
+            </div>
+
+     <script src="src/js/script.js"></script>
     </body>
 </html>

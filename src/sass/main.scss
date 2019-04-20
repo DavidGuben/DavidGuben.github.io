@@ -1,0 +1,16 @@
+// tools & utilities
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// base styling
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/animations";
+
+// main components
+@import "navigation";
+@import "header";
+@import "card";
+@import "footer";
