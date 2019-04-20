@@ -302,7 +302,8 @@ body {
   display: grid;
   grid-template-columns: .5fr .5fr .5fr;
   grid-template-rows: 30rem 30rem;
-  grid-gap: 7rem;
+  grid-row-gap: 4rem;
+  grid-column-gap: 10rem;
   position: relative;
   padding: 9rem; }
   @media only screen and (max-width: 1200px) {
@@ -319,7 +320,7 @@ body {
       grid-template-rows: repeat(6, 30rem);
       grid-auto-flow: row;
       grid-auto-rows: auto;
-      grid-gap: 5rem;
+      grid-gap: 3rem;
       padding: 9rem; } }
 
 .card {
