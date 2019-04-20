@@ -1,5 +1,5 @@
 {
-  "name": "folio-2019",
+  "name": "folio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "keywords": [],
-  "author": "",
+  "author": "David Guben <davidjg6@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.4.3",
@@ -27,5 +27,6 @@
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3"
-  }
+  },
+  "repository": "https://github.com/DavidGuben/DavidGuben.github.io.git"
 }
