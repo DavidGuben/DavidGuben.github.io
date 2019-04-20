@@ -12,7 +12,9 @@
     grid-row-gap: 4rem;
     grid-column-gap: 10rem;
     position: relative;
-    padding: 9rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    top: 3rem;
 
     @include respond(tab-land) {
         display: grid;
@@ -29,7 +31,10 @@
         grid-auto-flow: row;
         grid-auto-rows: auto;
         grid-gap: 3rem;
-        padding: 9rem;
+        padding-left: 9rem;
+        padding-right: 9rem;
+        top: 1rem;
+        
     }
 }
 
@@ -65,8 +70,6 @@
             display: grid;
             grid-template-columns: repeat(8, 1fr);
             grid-template-rows: repeat(3, 1fr);
-            //grid-row-gap: 1rem;
-            
         }
 
         &--back {
@@ -88,13 +91,13 @@
         }
     }
 
-    &:hover &__side--front {
-        //transform: rotateY(-180deg);
-    }
+    /*&:hover &__side--front {
+        transform: rotateY(-180deg);
+    }*/
 
-    &:hover &__side--back {
-        //transform: rotateY(0);
-    }
+    /*&:hover &__side--back {
+        transform: rotateY(0);
+    }*/
 
     // Front side styling
     &__picture {
@@ -210,26 +213,6 @@
         
     
     }
-
-    // &__details {
-    //     padding: 3rem;
-
-    //     ul {
-    //         list-style: none;
-    //         width: 80%;
-    //         margin: 0 auto;
-
-    //         li {
-    //             text-align: center;
-    //             font-size: 1.5rem;
-    //             padding: 1rem;
-
-    //             &:not(:last-child) {
-    //                 border-bottom: 1px solid $color-grey-light-2;
-    //             }
-    //         }
-    //     }
-    // }
 
     &__cta {
         grid-column: 7 / 3;
