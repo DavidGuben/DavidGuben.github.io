@@ -20,11 +20,6 @@ html {
 body {
   box-sizing: border-box;
   padding: 3rem;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
-  background-blend-mode: multiply,multiply;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
   color: #fff;
   text-shadow: 0px 1px #666;
   font-family: "Raleway"; }
@@ -300,7 +295,11 @@ body {
 .container {
   margin-top: 2rem;
   text-align: center;
-  position: relative; }
+  position: relative;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%) fixed, radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) fixed #989898 fixed;
+  background-blend-mode: multiply,multiply;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .card-container {
   display: grid;

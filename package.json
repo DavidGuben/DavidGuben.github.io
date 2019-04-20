@@ -11,7 +11,7 @@
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/css/style.comp.css -o src/css/style.prefix.css",
     "compress:css": "node-sass src/css/style.prefix.css src/css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css",
-    "add-commit": "git add . && git commit -m",
+    "add-commit": "yarn build:css && git add . && git commit -m",
     "master": "git push origin master"
   },
   "keywords": [],
