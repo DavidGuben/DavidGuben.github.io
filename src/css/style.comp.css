@@ -20,10 +20,6 @@ html {
 body {
   box-sizing: border-box;
   padding: 3rem;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
-  background-blend-mode: multiply,multiply;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: #fff;
   text-shadow: 0px 1px #666;
   font-family: 'Raleway'; }
@@ -390,7 +386,7 @@ body {
     -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
     box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
     border-radius: 5px; }
-    .card__picture:hover {
+    .card__picture:hover, .card__picture:active {
       border: 5px solid #B38485;
       transform: scale(1.1) translateY(-10px); }
     .card__picture--1 {
