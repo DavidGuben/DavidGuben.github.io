@@ -188,10 +188,12 @@
 
         &-tech {
             list-style: none;
-            font-size: 1.4rem;
+            font-size: 1rem;
+            text-align: center;
             font-weight: 100;
             padding-bottom: .8rem;
             text-shadow: 0px 1px #666;
+            grid-column: 1 / 9;
         }
 
         &-tech li {
@@ -204,7 +206,7 @@
             }
 
             &:not(:last-child) {
-                padding-right: 2rem;
+                padding-right: .5rem;
 
                 @include respond(phone) {
                     padding-right: 2.5rem;
@@ -270,17 +272,14 @@
     }
 
     &__cta {
-        grid-column: 7 / 3;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 100%;
+        grid-column: 2 / 8;
+        grid-row: 2 / 3;
         text-align: center;
-        transform: translate(-50%, -50%);
         color: $color-white;
+        top: 20rem;
 
         &-desc {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             grid-column: 1 / 9;
         }
     }
