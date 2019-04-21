@@ -68,7 +68,7 @@
         box-shadow: $shadow-1;
 
         &--front {
-            background-color: #91CCA0;
+            background-image: linear-gradient(to top, $color-primary 0%, $color-tertiary 100%);
             background-repeat: no-repeat;
             display: grid;
             grid-template-columns: repeat(8, 1fr);
@@ -81,18 +81,8 @@
             display: grid;
             grid-template-columns: repeat(8, 1fr);
             grid-template-rows: repeat(3, 1fr);
-
-            &-1 {
-                background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
-            }
-
-            &-2 {
-                background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
-            }
-
-            &-3 {
-                background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
-            }
+            opacity: .9;
+            background-image: linear-gradient(to top, $color-primary 0%, $color-tertiary 100%);
         }
     }
 
@@ -130,7 +120,7 @@
 
         &:hover,
         &:active {
-            border: 5px solid $color-primary-hilight;
+            border: 5px solid $color-hilight;
             transform: scale(1.1) translateY(-10px);
         }
 
@@ -165,26 +155,27 @@
         grid-column: 1 / 9;
         color: $color-white;
         cursor: default;
-        padding-bottom: 2rem;
+        padding-bottom: 2.5rem;
 
         &-heading--span {
             display: block;
-            padding-top: .8rem;
+            padding-top: 1rem;
             padding-bottom: .8rem;
             box-decoration-break: clone;
             -webkit-box-decoration-break: clone;
-            font-size: 2.2rem;
-            font-weight: 700;
+            font-size: 3rem;
+            font-weight: 800;
             text-transform: uppercase;
-            width: 60%;
+            width: 70%;
             text-shadow: 0px 1px #666;
             text-align: center;
             transition: all .2s ease-in-out;
             margin: 0 auto;
+            letter-spacing: .1rem;
 
 
             &:hover {
-                color: $color-primary-hilight;
+                color: $color-hilight;
                 letter-spacing: .3rem;
             }
 
@@ -198,7 +189,6 @@
         &-tech {
             list-style: none;
             font-size: 1.4rem;
-            text-shadow: none;
             font-weight: 100;
             padding-bottom: .8rem;
             text-shadow: 0px 1px #666;
@@ -206,14 +196,15 @@
 
         &-tech li {
             display: inline-block;
+
             transition: all .3s ease-in-out;
 
             &:hover {
-                color: $color-primary-hilight;
+                color: $color-hilight;
             }
 
             &:not(:last-child) {
-                padding-right: 1rem;
+                padding-right: 2rem;
 
                 @include respond(phone) {
                     padding-right: 2.5rem;
@@ -223,23 +214,50 @@
 
         &-btn {
             color: $color-white;
-            padding: 5px;
-            background-blend-mode: screen;
-            background-color: rgba($color-primary-hilight, .2);
+            padding: .5rem;
+            background-color: rgba($color-secondary, .5);
             margin-top: .3rem;
             font-size: 1.5rem;
+            font-weight: 100;
             border: none;
-            width: 10rem;
+            width: 12rem;
             border-radius: 10px;
             transition: all .2s ease-in-out;
-            border-bottom: 1px solid $color-primary-dark;
+            
             display: inline-block;
-            text-shadow: 0px 1px #666;
+            text-shadow: 0px 1px $color-grey-dark-3;
             cursor: pointer;
+            box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.18);
 
+            &--back {
+                color: $color-white;
+                padding: .5rem;
+                background-color: rgba($color-alert, .5);
+                margin-top: .3rem;
+                font-size: 1.5rem;
+                font-weight: 100;
+                border: none;
+                width: 12rem;
+                border-radius: 10px;
+                transition: all .2s ease-in-out;
+                border-bottom: 1px solid $color-primary;
+                display: inline-block;
+                text-shadow: 0px 1px #666;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.1);
+                    color: $color-hilight;
+                    font-weight: 300;
+                    background-color: rgba($color-alert, .7);
+                }
+            }
 
             &:hover {
                 transform: scale(1.1);
+                color: $color-hilight;
+                font-weight: 300;
+                background-color: rgba($color-secondary, .7);
             }
 
             @include respond(phone) {
@@ -256,25 +274,14 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        width: 90%;
+        width: 100%;
         text-align: center;
         transform: translate(-50%, -50%);
         color: $color-white;
-    }
 
-    &__price-box {
-        text-align: center;
-        color: $color-white;
-        margin-bottom: 8rem;
-    }
-
-    &__price-only {
-        font-size: 1.4rem;
-        text-transform: uppercase;
-    }
-
-    &__price-value {
-        font-size: 6rem;
-        font-weight: 100;
+        &-desc {
+            font-size: 1.4rem;
+            grid-column: 1 / 9;
+        }
     }
 }

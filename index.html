@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"">
     <meta http-equiv=" X-UA-Compatible" content="ie=edge">
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,800" rel="stylesheet">
 
     <!--<link href="css/icon-font.css" rel="stylesheet">-->
     <link href="src/css/style.css" rel="stylesheet">
@@ -14,12 +14,12 @@
 </head>
 
 <body>
-    
-        <video class="bg-video__content" autoplay muted loop>
-            <source src="/src/img/galaxy-video.mp4" type="video/mp4">
-            Your browser is not supported
-        </video>
-    
+
+    <video class="bg-video__content" autoplay muted loop>
+        <source src="/src/img/galaxy-video.mp4" type="video/mp4">
+        Your browser is not supported
+    </video>
+
     <div class="navigation" style="transition: all .2s;">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle" onclick="toggleNaviDisplay()">
 
@@ -58,19 +58,23 @@
                         <span class="card__details-heading--span">
                             Natours
                         </span>
-                        <ul class="card__details-tech">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JS</li>
-                        </ul>
+
                         <button onclick=flipCard1() class="card__details-btn">Read more</button>
                     </div>
 
                 </div>
                 <div id="card__side--back-1" class="card__side card__side--back card__side--back-1">
                     <div class="card__cta">
-                        Visit site
-                        <button onclick=flipCardBack1() class="card__details-btn">Go back</button>
+                        <p class="card__cta-desc">Natours is a simple trail booking website.</p>
+                        <hr class="hr" />
+                        Tech used
+                        <hr class="hr" />
+                        <ul class="card__details-tech">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                        <button onclick=flipCardBack1() class="card__details-btn--back">Go back</button>
                     </div>
                 </div>
                 <!-- </a> -->
