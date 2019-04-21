@@ -50,7 +50,6 @@
     position: relative;
     transition: all .2s ease-in-out;
 
-
     &:hover {
         transform: translateY(-10px);
     }
@@ -104,7 +103,7 @@
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
         border: 5px solid $color-white;
-        width: 100%;
+        background-image: url(../img/device-tablet-masked-natours.jpg);
         background-position: top;
         background-repeat: no-repeat;
         transition: all .3s ease-in-out;
@@ -113,7 +112,7 @@
         box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
         border-radius: .7rem;
         padding-bottom: 2rem;
-
+        
         @include respond(phone) {
             transform: scale(1.1) translateY(-.7rem);
         }
