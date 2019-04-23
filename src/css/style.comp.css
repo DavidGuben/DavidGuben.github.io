@@ -172,6 +172,18 @@ body {
     opacity: 1;
     transform: translate(0); } }
 
+.logo {
+  background-color: transparent;
+  position: fixed;
+  width: 7rem;
+  top: 0;
+  left: 0;
+  margin-left: 3.5rem;
+  margin-top: 3.5rem;
+  color: #fff; }
+  .logo--img {
+    width: inherit; }
+
 .navigation__checkbox {
   display: none; }
 
