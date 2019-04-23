@@ -1,10 +1,10 @@
-// *,
-// *::before,
-// *::after {
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: inherit;
-// }
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
 
 html {
     // All other px measurements are converted to rem (num/10)). | 16/10 = .625 or 62.5% | 16px == 100%
