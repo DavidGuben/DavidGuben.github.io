@@ -10,6 +10,8 @@ html {
     // All other px measurements are converted to rem (num/10)). | 16/10 = .625 or 62.5% | 16px == 100%
     font-size: 62.5%;
 
+    Padding: env(safe-area-inset);
+
     @include respond(big-desktop) {
         font-size: 75%;
     }
@@ -38,7 +40,6 @@ body {
 
 
 }
-
 
 .bg-video__content {
     position: fixed;

@@ -6,7 +6,8 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  Padding: env(safe-area-inset); }
   @media only screen and (max-width: 1800px) {
     html {
       font-size: 75%; } }
