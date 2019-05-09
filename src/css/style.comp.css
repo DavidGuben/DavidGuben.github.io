@@ -337,7 +337,7 @@ body {
   grid-template-columns: .7fr .7fr .7fr;
   grid-template-rows: 30rem 30rem;
   grid-row-gap: 4rem;
-  grid-column-gap: 15rem;
+  grid-column-gap: 8rem;
   position: relative;
   padding-left: 9rem;
   padding-right: 9rem;
