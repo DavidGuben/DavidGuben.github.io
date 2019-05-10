@@ -186,7 +186,7 @@
         &-tech {
             list-style: none;
             font-size: 1rem;
-
+            cursor: default;
             font-weight: 100;
             padding-bottom: .8rem;
             text-shadow: 0px 1px #666;
@@ -195,7 +195,7 @@
 
         &-tech li {
             display: inline-block;
-
+            cursor: default;
             transition: all .3s ease-in-out;
 
             &:hover {
@@ -214,7 +214,7 @@
         &-btn {
             color: $color-white;
             background-color: transparent;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: 100;
             border-top: none;
             border-left: none;
@@ -230,14 +230,13 @@
             &--back {
                 color: $color-white;
                 background-color: transparent;
-                font-size: 1.5rem;
+                font-size: 1.3rem;
                 font-weight: 100;
                 border-top: none;
                 border-left: none;
                 border-right: none;
                 border-bottom: .5px solid rgba($color-white, .3);
                 transition: all .2s ease-in-out;
-                display: inline-block;
                 text-shadow: 0px 1px #666;
                 cursor: pointer;
 
@@ -270,11 +269,18 @@
         grid-row: 2 / 3;
         text-align: center;
         color: $color-white;
+        cursor: default;
         top: 20rem;
+        
 
         &-desc {
             font-size: 1.2rem;
             grid-column: 1 / 9;
+            cursor: default;
+            transition: all .2s ease-in-out;
+            &:hover{color: $color-hilight;}
         }
+        &-heading{transition: all .2s ease-in-out;}
+        &-heading:hover{color: $color-hilight;}
     }
 }

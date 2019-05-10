@@ -464,12 +464,14 @@ body {
     .card__details-tech {
       list-style: none;
       font-size: 1rem;
+      cursor: default;
       font-weight: 100;
       padding-bottom: .8rem;
       text-shadow: 0px 1px #666;
       grid-column: 1 / 9; }
     .card__details-tech li {
       display: inline-block;
+      cursor: default;
       transition: all .3s ease-in-out; }
       .card__details-tech li:hover {
         color: #A64636; }
@@ -481,7 +483,7 @@ body {
     .card__details-btn {
       color: #fff;
       background-color: transparent;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       font-weight: 100;
       border-top: none;
       border-left: none;
@@ -495,14 +497,13 @@ body {
       .card__details-btn--back {
         color: #fff;
         background-color: transparent;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 100;
         border-top: none;
         border-left: none;
         border-right: none;
         border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
         transition: all .2s ease-in-out;
-        display: inline-block;
         text-shadow: 0px 1px #666;
         cursor: pointer; }
         .card__details-btn--back:hover {
@@ -523,10 +524,19 @@ body {
     grid-row: 2 / 3;
     text-align: center;
     color: #fff;
+    cursor: default;
     top: 20rem; }
     .card__cta-desc {
       font-size: 1.2rem;
-      grid-column: 1 / 9; }
+      grid-column: 1 / 9;
+      cursor: default;
+      transition: all .2s ease-in-out; }
+      .card__cta-desc:hover {
+        color: #A64636; }
+    .card__cta-heading {
+      transition: all .2s ease-in-out; }
+    .card__cta-heading:hover {
+      color: #A64636; }
 
 .footer {
   margin-top: 10rem;
