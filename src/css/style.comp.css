@@ -422,7 +422,7 @@ body {
       .card__picture {
         transform: scale(1.1) translateY(-0.7rem); } }
     .card__picture:hover, .card__picture:active {
-      border: 2px solid #F3FFBD;
+      border: 2px solid #A64636;
       transform: scale(1.1) translateY(-10px); }
     .card__picture--1 {
       background-image: url(../img/device-tablet-masked-natours.jpg); }
@@ -445,20 +445,18 @@ body {
     .card__details-heading--span {
       display: block;
       padding-top: 1rem;
-      padding-bottom: .8rem;
       box-decoration-break: clone;
       -webkit-box-decoration-break: clone;
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: 800;
       text-transform: uppercase;
-      width: 70%;
       text-shadow: 0px 1px #666;
       text-align: center;
       transition: all .2s ease-in-out;
       margin: 0 auto;
       letter-spacing: .1rem; }
       .card__details-heading--span:hover {
-        color: #F3FFBD;
+        color: #A64636;
         letter-spacing: .3rem; }
       @media only screen and (max-width: 600px) {
         .card__details-heading--span {
@@ -474,7 +472,7 @@ body {
       display: inline-block;
       transition: all .3s ease-in-out; }
       .card__details-tech li:hover {
-        color: #F3FFBD; }
+        color: #A64636; }
       .card__details-tech li:not(:last-child) {
         padding-right: .5rem; }
         @media only screen and (max-width: 600px) {
@@ -482,41 +480,40 @@ body {
             padding-right: 2.5rem; } }
     .card__details-btn {
       color: #fff;
-      padding: .5rem;
       background-color: transparent;
-      margin-top: .3rem;
       font-size: 1.5rem;
       font-weight: 100;
-      border: none;
-      width: 12rem;
-      border-radius: 10px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
+      padding-bottom: 1px;
       transition: all .2s ease-in-out;
       display: inline-block;
       text-shadow: 0px 1px #333;
-      cursor: pointer;
-      text-decoration: underline; }
+      cursor: pointer; }
       .card__details-btn--back {
         color: #fff;
-        padding: .5rem;
         background-color: transparent;
-        margin-top: .3rem;
         font-size: 1.5rem;
         font-weight: 100;
-        border: none;
-        width: 12rem;
-        border-radius: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
         transition: all .2s ease-in-out;
-        text-decoration: underline;
         display: inline-block;
         text-shadow: 0px 1px #666;
         cursor: pointer; }
         .card__details-btn--back:hover {
           transform: scale(1.1);
-          color: #F3FFBD;
+          color: #A64636;
+          border-bottom: 1px solid #A64636;
           font-weight: 300; }
       .card__details-btn:hover {
         transform: scale(1.1);
-        color: #F3FFBD;
+        color: #A64636;
+        border-bottom: 1px solid #A64636;
         font-weight: 300; }
       @media only screen and (max-width: 600px) {
         .card__details-btn {
