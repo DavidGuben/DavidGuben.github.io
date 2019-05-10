@@ -35,8 +35,8 @@
         grid-auto-flow: row;
         grid-auto-rows: auto;
         grid-gap: 5rem;
-        padding-left: 7rem;
-        padding-right: 7rem;
+        padding-left: 5rem;
+        padding-right: 6rem;
         top: 1rem;
     }
 }
@@ -112,9 +112,9 @@
         box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
         border-radius: .7rem;
         padding-bottom: 2rem;
-        
+
         @include respond(phone) {
-            transform: scale(1.1) translateY(-.7rem);
+            transform: scale(1.05) translateY(-1rem);
         }
 
         &:hover,
@@ -186,7 +186,7 @@
         &-tech {
             list-style: none;
             font-size: 1rem;
-            
+
             font-weight: 100;
             padding-bottom: .8rem;
             text-shadow: 0px 1px #666;
@@ -248,6 +248,7 @@
                     font-weight: 300;
                 }
             }
+
             // button hover
             &:hover {
                 transform: scale(1.1);
@@ -257,8 +258,7 @@
             }
 
             @include respond(phone) {
-                font-size: 2.5rem;
-                width: 18rem;
+                font-size: 2.2rem;
             }
         }
 
