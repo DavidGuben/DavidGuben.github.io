@@ -317,12 +317,16 @@ body {
 
 .header__heading {
   transition: all .3s ease-in-out;
-  font-size: 4.5rem;
+  font-size: 5rem;
   color: #fff;
   cursor: default;
   display: block;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 1rem; }
+  @media only screen and (max-width: 600px) {
+    .header__heading {
+      font-size: 4.5rem;
+      padding-top: 2rem; } }
 
 .container {
   margin-top: 2rem;
