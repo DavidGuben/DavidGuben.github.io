@@ -62,7 +62,7 @@
         left: 0;
         width: 100%;
         backface-visibility: hidden;
-        border-radius: 5px;
+        border-radius: 10px;
 
         box-shadow: $shadow-1;
 
@@ -76,7 +76,7 @@
 
         &--back {
             transform: rotateY(180deg);
-            border: 2px solid $color-white;
+            border: 2px solid $color-secondary;
             display: grid;
             grid-template-columns: repeat(8, 1fr);
             grid-template-rows: repeat(3, 1fr);
@@ -102,14 +102,14 @@
         grid-row: 1 / 3;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
-        border: 2px solid $color-white;
+        // border: 1px solid $color-white;
         background-image: url(../img/natours_ipad.jpg);
         background-position: top;
         background-repeat: no-repeat;
         transition: all .3s ease-in-out;
-        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
+        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
+        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
         border-radius: .7rem;
         padding-bottom: 2rem;
 
@@ -132,14 +132,14 @@
         grid-row: 1 / 3;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
-        border: 2px solid $color-white;
+        // border: 1px solid $color-white;
         background-image: url(../img/trilio_ipad.jpg);
         background-position: top;
         background-repeat: no-repeat;
         transition: all .3s ease-in-out;
-        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
+        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
+        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
         border-radius: .7rem;
         padding-bottom: 2rem;
 
@@ -162,14 +162,14 @@
         grid-row: 1 / 3;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
-        border: 2px solid $color-white;
+        // border: 1px solid $color-white;
         background-image: url(../img/nexter_ipad.jpg);
         background-position: top;
         background-repeat: no-repeat;
         transition: all .3s ease-in-out;
-        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
+        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
+        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
         border-radius: .7rem;
         padding-bottom: 2rem;
 
@@ -192,14 +192,14 @@
         grid-row: 1 / 3;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
-        border: 2px solid $color-white;
+        // border: 1px solid $color-white;
         background-image: url(../img/scroller_ipad.jpg);
         background-position: top;
         background-repeat: no-repeat;
         transition: all .3s ease-in-out;
-        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
+        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
+        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
         border-radius: .7rem;
         padding-bottom: 2rem;
 
@@ -222,14 +222,14 @@
         grid-row: 1 / 3;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
-        border: 2px solid $color-white;
+        // border: 1px solid $color-white;
         background-image: url(../img/rc_ipad.jpg);
         background-position: top;
         background-repeat: no-repeat;
         transition: all .3s ease-in-out;
-        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
+        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
+        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
         border-radius: .7rem;
         padding-bottom: 2rem;
 
@@ -252,14 +252,14 @@
         grid-row: 1 / 3;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
-        border: 2px solid $color-white;
+        // border: 1px solid $color-white;
         background-image: url(../img/pnp_ipad.jpg);
         background-position: top;
         background-repeat: no-repeat;
         transition: all .3s ease-in-out;
-        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
-        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
+        -moz-box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
+        box-shadow: 0px 13px 20px -10px rgba(0, 0, 0, 0.45);
         border-radius: .7rem;
         padding-bottom: 2rem;
 
