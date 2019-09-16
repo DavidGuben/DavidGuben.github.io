@@ -76,7 +76,6 @@
 
         &--back {
             transform: rotateY(180deg);
-            border: 2px solid $color-secondary;
             display: grid;
             grid-template-columns: repeat(8, 1fr);
             grid-template-rows: repeat(3, 1fr);
