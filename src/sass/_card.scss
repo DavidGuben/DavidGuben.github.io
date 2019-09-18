@@ -11,7 +11,6 @@
     display: grid;
     grid-template-columns: .7fr .7fr .7fr;
     grid-template-rows: 30rem 30rem;
-
     grid-row-gap: 4rem;
     grid-column-gap: 8rem;
     position: relative;
@@ -68,6 +67,7 @@
 
         &--front {
             background-image: linear-gradient(to top, $color-primary 0%, $color-tertiary 100%);
+            opacity: 97%;
             background-repeat: no-repeat;
             display: grid;
             grid-template-columns: repeat(8, 1fr);
