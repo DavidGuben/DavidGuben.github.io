@@ -635,7 +635,7 @@ body {
         font-weight: 300; }
       @media only screen and (max-width: 600px) {
         .card__details-btn {
-          font-size: 2.2rem; } }
+          font-size: 1.5rem; } }
   .card__cta {
     grid-column: 2 / 8;
     grid-row: 2 / 3;
