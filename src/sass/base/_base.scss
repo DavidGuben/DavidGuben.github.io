@@ -9,6 +9,7 @@
 html {
     // All other px measurements are converted to rem (num/10)). | 16/10 = .625 or 62.5% | 16px == 100%
     font-size: 62.5%;
+    overflow: hidden;
 
     Padding: env(safe-area-inset);
 

@@ -10,7 +10,6 @@ function toggleNaviDisplay () {
     }
 }
 
-
 // toggle flipping the card
 function flipCard1() {
     let x = document.getElementById('card__side--front-1');

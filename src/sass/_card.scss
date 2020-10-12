@@ -5,17 +5,22 @@
     background-blend-mode: multiply, multiply;
     background-size: cover;
     background-repeat: no-repeat;
+    
+    
 }
 
 .card-container {
     display: grid;
-    grid-template-columns: .7fr .7fr .7fr;
+    // grid-template-columns: .7fr .7fr .7fr;
+    grid-template-columns: repeat(3, 18%);
     grid-template-rows: 30rem 30rem;
-    grid-row-gap: 4rem;
+    grid-row-gap: 5rem;
     grid-column-gap: 8rem;
     position: relative;
-    padding-left: 9rem;
-    padding-right: 9rem;
+    // padding-left: 9rem;
+    // padding-right: 9rem;
+    overflow: hidden;
+    justify-content: center;
     top: 3rem;
 
     @include respond(tab-land) {
@@ -24,6 +29,7 @@
         grid-template-rows: 30rem 30rem;
         grid-gap: 5rem;
         padding: 3rem;
+        left: 0rem;
     }
 
     @include respond(phone) {
