@@ -22,6 +22,7 @@
     overflow: hidden;
     justify-content: center;
     top: 3rem;
+    padding-top: 5rem;
 
     @include respond(tab-land) {
         display: grid;

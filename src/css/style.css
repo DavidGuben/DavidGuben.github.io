@@ -356,7 +356,8 @@ body {
   position: relative;
   overflow: hidden;
   justify-content: center;
-  top: 3rem; }
+  top: 3rem;
+  padding-top: 5rem; }
   @media only screen and (max-width: 1200px) {
     .card-container {
       display: grid;
