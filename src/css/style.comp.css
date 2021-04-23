@@ -7,6 +7,7 @@
 
 html {
   font-size: 62.5%;
+  overflow: hidden;
   Padding: env(safe-area-inset); }
   @media only screen and (max-width: 1800px) {
     html {
@@ -348,21 +349,23 @@ body {
 
 .card-container {
   display: grid;
-  grid-template-columns: .7fr .7fr .7fr;
+  grid-template-columns: repeat(3, 18%);
   grid-template-rows: 30rem 30rem;
-  grid-row-gap: 4rem;
+  grid-row-gap: 5rem;
   grid-column-gap: 8rem;
   position: relative;
-  padding-left: 9rem;
-  padding-right: 9rem;
-  top: 3rem; }
+  overflow: hidden;
+  justify-content: center;
+  top: 3rem;
+  padding-top: 5rem; }
   @media only screen and (max-width: 1200px) {
     .card-container {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 30rem 30rem;
       grid-gap: 5rem;
-      padding: 3rem; } }
+      padding: 3rem;
+      left: 0rem; } }
   @media only screen and (max-width: 600px) {
     .card-container {
       display: grid;

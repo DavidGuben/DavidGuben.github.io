@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta http-equiv=" X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,800" rel="stylesheet">
+
+    <!--<link href="css/icon-font.css" rel="stylesheet">-->
+    <link href="src/css/style.css" rel="stylesheet">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-5534885977608047",
+            enable_page_level_ads: true
+        });
+    </script>
+    <title>Folio | 2020</title>
+</head>
+
+<body>
+
+    <video class="bg-video__content" autoplay muted loop playsinline>
+        <source src="/src/img/snow.mp4" type="video/mp4">
+        Your browser is not supported
+    </video>
+    
+        <a href="http://davidguben.com" class="logo">
+            <img src="src/img/Logo.png" alt="logo" class="logo--img">
+        </a>
+    
+    <div class="navigation" style="transition: all .2s;">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" onclick="toggleNaviDisplay()">
+
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon"></span>
+        </label>
+
+        <div class="navigation__background"></div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list" id="navi-list" style="display:none;">
+                <li class="navigation__item"><a href="mailto:davidjg6@gmail.com" class="navigation__link"><span>01</span>Contact me</a></li>
+                <li class="navigation__item"><a href="https://github.com/DavidGuben" class="navigation__link"
+                        target="_blank"><span>03</span>GitHub</a></li>
+                <li class="navigation__item"><a href="https://www.linkedin.com/in/david-guben-79b3063b/"
+                        class="navigation__link" target="_blank"><span>04</span>Linkedin</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+
+        <header class="header">
+            
+            <h1><span class="header__heading">Projects</span></h1>
+            <h2><span class="header__heading2">Full-time Application Manager. <br/>Freelance Full-Stack Developer.</span></h2>
+
+        </header>
+
+        <main class="card-container">
+
+            <div class="card">
+                <div id="card__side--front-1" class="card__side card__side--front card__side--front-1">
+
+                    <a href="https://davidguben.github.io/natours-scss" target="_blank" class="card__picture">
+                        <div class="card__picture--img">
+                        </div> 
+                    </a>
+
+                    <div class="card__details">
+                        <span class="card__details-heading--span">
+                            Natours
+                        </span>
+
+                        <button onclick=flipCard1() class="card__details-btn">Read more</button>
+                    </div>
+
+                </div>
+                <div id="card__side--back-1" class="card__side card__side--back card__side--back-1">
+                    <div class="card__cta">
+                        <p class="card__cta-desc">Natours is a simple trail booking website.</p>
+                        <hr class="hr" />
+                        <p class="card__cta-heading">Tech used</p>
+                        <hr class="hr" />
+                        <ul class="card__details-tech">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                        <button onclick=flipCardBack1() class="card__details-btn--back">Go back</button>
+                    </div>
+                </div>
+            </div><!-- End Card-->
+
+            <div class="card">
+                <div id="card__side--front-2" class="card__side card__side--front card__side--front-1">
+
+                    <a href="https://davidguben.github.io/trilio" target="_blank" class="card__picture2">
+                        <div class="card__picture--img">
+                        </div>
+                    </a>
+
+                    <div class="card__details">
+                        <span class="card__details-heading--span">
+                            Trilio
+                        </span>
+
+                        <button onclick=flipCard2() class="card__details-btn">Read more</button>
+                    </div>
+
+                </div>
+                <div id="card__side--back-2" class="card__side card__side--back card__side--back-1">
+                    <div class="card__cta">
+                        <p class="card__cta-desc">Trilo is a progressive flight booking app.</p>
+                        <hr class="hr" />
+                        Tech used
+                        <hr class="hr" />
+                        <ul class="card__details-tech">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                        <button onclick=flipCardBack2() class="card__details-btn--back">Go back</button>
+                    </div>
+                </div>
+            </div><!-- End Card-->
+
+            <div class="card">
+                <div id="card__side--front-3" class="card__side card__side--front card__side--front-1">
+
+                    <a href="https://davidguben.github.io/nexter" target="_blank" class="card__picture3">
+                        <div class="card__picture--img">
+                        </div>
+                    </a>
+
+                    <div class="card__details">
+                        <span class="card__details-heading--span">
+                            Nexter
+                        </span>
+
+                        <button onclick=flipCard3() class="card__details-btn">Read more</button>
+                    </div>
+
+                </div>
+                <div id="card__side--back-3" class="card__side card__side--back card__side--back-1">
+                    <div class="card__cta">
+                        <p class="card__cta-desc">Nexter is a realtor booking progressive web app.</p>
+                        <hr class="hr" />
+                        Tech used
+                        <hr class="hr" />
+                        <ul class="card__details-tech">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SCSS</li>
+                            <li>JS</li>
+                        </ul>
+                        <button onclick=flipCardBack3() class="card__details-btn--back">Go back</button>
+                    </div>
+                </div>
+            </div><!-- End Card-->
+
+            <div class="card">
+                <div id="card__side--front-4" class="card__side card__side--front card__side--front-1">
+
+                    <a href="https://davidguben.com/infinite-scroll-gallery/" target="_blank" class="card__picture4">
+                        <div class="card__picture--img">
+                        </div>
+                    </a>
+
+                    <div class="card__details">
+                        <span class="card__details-heading--span">
+                            Infinite Gallery
+                        </span>
+
+                        <button onclick=flipCard4() class="card__details-btn">Read more</button>
+                    </div>
+
+                </div>
+                <div id="card__side--back-4" class="card__side card__side--back card__side--back-1">
+                    <div class="card__cta">
+                        <p class="card__cta-desc">Infinite Gallery is a gallery that goes that loads images forever as long as you scroll.</p>
+                        <hr class="hr" />
+                        Tech used
+                        <hr class="hr" />
+                        <ul class="card__details-tech">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                            <li>REACT</li>
+                            <li>NODE</li>
+                        </ul>
+                        <button onclick=flipCardBack4() class="card__details-btn--back">Go back</button>
+                    </div>
+                </div>
+            </div><!-- End Card-->
+
+            <div class="card">
+                <div id="card__side--front-5" class="card__side card__side--front card__side--front-1">
+
+                    <a href="https://www.rituchopra.com/books" target="_blank" class="card__picture5">
+                        <div class="card__picture--img">
+                        </div>
+                    </a>
+
+                    <div class="card__details">
+                        <span class="card__details-heading--span">
+                            Ritu Chopra
+                        </span>
+
+                        <button onclick=flipCard5() class="card__details-btn">Read more</button>
+                    </div>
+
+                </div>
+                <div id="card__side--back-5" class="card__side card__side--back card__side--back-1">
+                    <div class="card__cta">
+                        <p class="card__cta-desc">Ritu Chopra is a motivational speaker based in New Jersey.</p>
+                        <hr class="hr" />
+                        Tech used
+                        <hr class="hr" />
+                        <ul class="card__details-tech">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                        <button onclick=flipCardBack5() class="card__details-btn--back">Go back</button>
+                    </div>
+                </div>
+            </div><!-- End Card-->
+
+            <div class="card">
+                <div id="card__side--front-6" class="card__side card__side--front card__side--front-1">
+
+                    <a href="https://www.pawsnposecuttery.com" target="_blank" class="card__picture6">
+                        <div class="card__picture--img">
+                        </div>
+                    </a>
+
+                    <div class="card__details">
+                        <span class="card__details-heading--span">
+                            Paws N' Pose
+                        </span>
+
+                        <button onclick=flipCard6() class="card__details-btn">Read more</button>
+                    </div>
+
+                </div>
+                <div id="card__side--back-6" class="card__side card__side--back card__side--back-1">
+                    <div class="card__cta">
+                        <p class="card__cta-desc">Natours is a simple trail booking website.</p>
+                        <hr class="hr" />
+                        Tech used
+                        <hr class="hr" />
+                        <ul class="card__details-tech">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                        <button onclick=flipCardBack6() class="card__details-btn--back">Go back</button>
+                    </div>
+                </div>
+            </div><!-- End Card-->
+
+        </main>
+
+        <footer class="footer">
+            <a href="#" class="footer--copyright">&copy; 2020 David Guben</a>
+        </footer>
+
+    </div>
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
