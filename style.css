@@ -17,53 +17,60 @@ body {
 }
 .box {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: left;
     font-size: 1.3rem;
+}
+.last {
+    padding: 105px;
+    flex-basis: 100%;
 }
 .box p {
     padding: 25px; 
-    padding-right: 150px; 
     padding-left: 35px;
+    color: #333;
+    font-weight: bolder;
 }
-.center-items {
-    position: absolute;
+/* .center-items {
+    position: relative;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+} */
+
+img {
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
 @media (max-width: 1030px) {
     .box {
         flex-direction: column;
         text-align: center;
+        align-items: CENTER;
+        flex-wrap: nowrap;
     }
     .box p {
         padding-left: 20px;
         padding-right: 20px;
-    }
-    .center-items {
-        top: 59%;
+        font-weight: bold;
     }
 }
 @media (max-width: 768px) {
-    .center-items {
-        top: 80%;
+    .last {
+        transform: scale(90%);
+    }
+    img {
+        padding-left: 0px;
     }
 }
 
 @media (max-width: 550px) {
-    .box p {
-        display: none;
+    img {
+        padding-top: 0px;
     }
-    .center-items {
-        top: 70%;
-    }
-}
-
-
-p {
-    color: black;
-    font-weight: bold;
 }
 h1 {
     text-align: center;
@@ -84,7 +91,6 @@ h1 {
 }
 h2 {
     text-align: center;
-    
     font-size: 2.5rem;
     font-weight:500;
     text-shadow: 0 1px 0 #ccc, 
