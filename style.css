@@ -20,6 +20,7 @@ body {
     align-items: center;
     font-size: 1.3rem;
 }
+
 .center-items {
     position: absolute;
     left: 50%;
@@ -84,6 +85,11 @@ animation-delay: 0.5s;
 -moz-animation-delay: 1.1s;
 animation-delay: 1.1s;
 }
+.five3 {
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    }
 @-webkit-keyframes fadeIn {
 from {
     opacity: 0;
