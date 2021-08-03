@@ -5,187 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv=" X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <link rel="stylesheet" href="style.css">
     <title>COMING SOON | 2021</title>
 </head>
-
 <body>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            overflow: visible;
-        }
-        body {
-            background: url('/cloud_bg.jpg') no-repeat center center fixed; 
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-            font-family: sans-serif;
-            color: white;
-            /* text-shadow: 4px 4px 0px rgba(151, 106, 106, 0.1); */
-            box-shadow: none;
-            touch-action: none;
-        }
-        .center-items {
-            position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-        }
-        h1 {
-            text-align: center;
-            font-size: 5rem;
-            font-weight:900;
-            text-shadow: 0 1px 0 #ccc, 
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
-        }
-        h2 {
-            text-align: center;
-            
-            font-size: 2.5rem;
-            font-weight:500;
-            text-shadow: 0 1px 0 #ccc, 
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
-        }
+  <div class="box">
+    <img height="300" src="profile_img.jpg" style="padding: 25px;"/>
+    <p style="padding: 25px; padding-right: 300px; padding-left: 35px">
+      Hi, I'm David! I am a MERN Full-stack engineer. <br/><br/>
+      In my part-time I work freelance to develop all kinds of software, tools,
+      mobile applications, web applications, games, and AI.<br/><br/>
 
-        .animate {
-        -webkit-animation-duration: 2s;
-        animation-duration: 2s;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-        }
+      I am currently developing a web portal that will allow you to purchase and then schedule services as well as buy
+      useful software to help grow your online buisness or bring your buisness online.<br/><br/>
 
-        .five {
-        -webkit-animation-delay: 0.5s;
-        -moz-animation-delay: 0.5s;
-        animation-delay: 0.5s;
-        }
-        .five2 {
-        -webkit-animation-delay: 1.1s;
-        -moz-animation-delay: 1.1s;
-        animation-delay: 1.1s;
-        }
-        @-webkit-keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-        }
-        @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-        }
-        .fadeIn {
-            -webkit-animation-name: fadeIn;
-            animation-name: fadeIn;
-        }
-        .pulse {
-  z-index: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 30rem;
-  
-}
-.pulse circle {
-  fill: white;
-  transform: scale(0);
-  opacity: 0;
-  transform-origin: 50% 50%;
-  
-  -webkit-animation: pulse 2s cubic-bezier(0.5, 0.5, 0, 1);
-          animation: pulse 2s cubic-bezier(0.5, 0.5, 0, 1);
-          animation-delay: 1.15s;
-}
-.pulse circle:nth-child(2) {
-  fill: white;
-  -webkit-animation: pulse 2s cubic-bezier(0.5, 0.5, 0, 1);
-          animation: pulse 2s cubic-bezier(0.5, 0.5, 0, 1);
-          animation-delay: 1.15s;
-}
-.pulse circle:nth-child(3) {
-  fill: white;
-  -webkit-animation: pulse 2s cubic-bezier(0.5, 0.5, 0, 1);
-          animation: pulse 2s cubic-bezier(0.5, 0.5, 0, 1);
-          animation-delay: 1.15s;
-}
-
-@-webkit-keyframes pulse {
-  25% {
-    opacity: 0.01;
-    
-  }
-  100% {
-    transform: scale(2);
-  }
-}
-
-@keyframes pulse {
-  25% {
-    opacity: 0.1;
-  }
-  100% {
-    transform: scale(2);
-  }
-}
-
-@keyframes pulse {
-	
-	25% {
-		opacity: 0.1;
-	}
-	
-	100% {
-		transform: scale(2);
-	}
-	
-}
-    </style>
-    <!-- <svg class="pulse" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <circle id="Oval" cx="512" cy="512" r="512"></circle>
-        <circle id="Oval" cx="512" cy="512" r="512"></circle>
-		<circle id="Oval" cx="512" cy="512" r="512"></circle>
-</svg> -->
-<div class="center-items">
-    <h2 class="animate fadeIn five">Updated Web Application</h2>
-    <h1 class="animate fadeIn five">COMING SOON</h1>
-</div>
-    
-    <!-- <div style="text-align: center; padding-top: 100px;" class="animate fadeIn five2">
-        <iframe id="serviceFrameSend" src="doors.html" width="500" height="500" frameborder="0"></iframe>
-    </div> -->
-    
+      For now, you can click <a href="#">here</a> to contact me for a quote and work examples.
+    </p>
+  </div>
+  <div class="center-items">
+      <h2 class="animate fadeIn five">Updated Web Application</h2>
+      <h1 class="animate fadeIn five">COMING SOON</h1>
+  </div>
 </body>
-
 </html>
