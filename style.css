@@ -62,7 +62,7 @@ img {
         transform: scale(90%);
     }
     img {
-        padding-left: 0px;
+        margin-left: 0px;
     }
 }
 
