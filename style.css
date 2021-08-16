@@ -9,7 +9,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: sans-serif;
+    font-family: rig-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     color: white;
     /* text-shadow: 4px 4px 0px rgba(151, 106, 106, 0.1); */
     box-shadow: none;
