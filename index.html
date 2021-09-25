@@ -327,8 +327,11 @@ body {
     transform: rotateY(90deg);
     box-shadow: inset 0 0 0 1px #fff;
   }
+  #cursor{
+    font-size: 30px;
+  }
 </style>
-<div style="z-index: 5; color:rgb(92, 80, 80); position: relative; padding-left: 300px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"><h1>Maintenance Mode</h1></div>
+<div style="z-index: 5; color:rgb(92, 80, 80); position: relative; padding-left: 300px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"><h1>Maintenance Mode<span id="cursor">_</span></h1></div>
 <div class='door'>
     <div class='face'>
       <div class='right'></div>
@@ -374,3 +377,17 @@ body {
   </filter>
   </defs>
   </svg>
+
+  <script>
+    var cursor = true;
+    var speed = 450;
+    setInterval(() => {
+      if(cursor) {
+        document.getElementById('cursor').style.opacity = 0;
+        cursor = false;
+      }else {
+        document.getElementById('cursor').style.opacity = 1;
+        cursor = true;
+      }
+    }, speed);
+</script>
