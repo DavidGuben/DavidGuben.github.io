@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv=" X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/mkt6mtr.css">
+    <title>COMING SOON | 2021</title>
+</head>
+
+<body>
+  <div class="box">
+    <img height="300px" width="410px" src="profile_img.jpg" class="animate fadeIn five2"/>
+    <p class="animate fadeIn five3"><br/><br/>
+      <span style="font-size: 32px"><b>Hi, I'm David! I am a MERN Full-stack engineer.</b></span> <br/><br/>
+      In my part-time I work freelance to develop all kinds of software, toolkits,<br/>
+      mobile applications, web applications, games, and AI.<br/><br/>
+
+      I am currently developing a web portal that will allow you to purchase and<br/> then schedule services as well as buy
+      useful software to help grow your<br/> online buisness or bring your buisness online.<br/><br/>
+
+      For now, you can click <a onclick="window.open('mailto:davidjg6@gmail.com', 
+      'newwindow', 
+      'width=800,height=800'); 
+      return false;" href="mailto:davidjg6@gmail.com">here</a> to contact me for a quote and a copy of my portfolio.
+    </p>
+    <div class="last" style="font-family: sans-serif;">
+      <h2 class="animate fadeIn five">Updated Web Application</h2>
+      <h1 class="animate fadeIn five">COMING SOON</h1>
+  </div>
+
+  <div class="content">
+    <div class="glitch">
+        <div class="glitchit"></div>
+        <div class="glitchit"></div>
+        <div class="glitchit"></div>
+        <div class="glitchit"></div>
+        <div class="glitchit"></div>
+    </div>
+    <div class="contentSection">
+        <h2 class="contentTitle"><span></span></h2>
+        <p class="contentText"></p>
+    </div>
+</div>
+<script>
+    var loader = document.getElementById('loader');
+    window.addEventListener("load", function(event) {
+        loader.classList.remove('loading');
+        loader.classList.add('loaded');
+        document.body.classList.add('imgloaded');
+    });
+
+</script>
+  </div>
+</body>
+
+</html>
