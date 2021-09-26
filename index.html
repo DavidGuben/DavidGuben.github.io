@@ -2,6 +2,9 @@
 <html>
   <head>
     <title>maintenance mode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap" rel="stylesheet">
 <style>
   html, body {
   overflow: hidden;
@@ -341,13 +344,15 @@ body {
   #cursor{
     font-size: 80px;
   }
+
 .glitch {
   color: white;
   z-index: 5;
   font-size: 80px;
   position: absolute;
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
+  font-family: 'JetBrains Mono';
 }
 
 @keyframes noise-anim {
@@ -504,9 +509,7 @@ body {
   animation: noise-anim-2 15s infinite linear alternate-reverse;
 }
 </style>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <div class="glitch" data-text="Maintenance mode">Maintenance mode<span id="cursor">_</span></div> 
