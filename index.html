@@ -355,6 +355,12 @@ body {
   font-family: 'JetBrains Mono';
 }
 
+@media screen and (max-width: 600px) {
+  .glitch, #cursor {
+    font-size: 40px;
+  }
+}
+
 @keyframes noise-anim {
   0% {
     clip-path: inset(84% 0 7% 0);
@@ -512,7 +518,9 @@ body {
 
 </head>
 <body>
-  <div class="glitch" data-text="Maintenance mode">Maintenance mode<span id="cursor">_</span></div> 
+  <div class="glitch-container">
+    <div class="glitch" data-text="Maintenance mode">Maintenance mode<span id="cursor">_</span></div> 
+  </div>
 <div class='door'>
     <div class='face'>
       <div class='right'></div>
