@@ -3,6 +3,17 @@
 /*	Basic Style 
 /* =================================== */
 
+.circular_image {
+  float: left;
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: blue;
+}
+
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -499,7 +510,7 @@ top: -8px;
 #facts {
 	background-image: url("../img/parallax/city.jpg");
 	background-color: rgba(6,32,51,.8);
-	background-attachment: fixed !important;
+	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
