@@ -1,746 +1,555 @@
-<!DOCTYPE html><!-- Brandi -->
-<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-    <head>
-    	<!-- meta charec set -->
-        <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="zxx">
 
-		<!-- Always force latest IE rendering engine or request Chrome Frame -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<head>
+    <meta charset="utf-8">
+    <title>David Guben | Online Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="David Guben's online portfolio for software development, game development and app development projects.">
+    <meta name="author" content="David Guben">
 
-		<!-- Page Title -->
-        <title>David Guben | Software Engineer | Online Portfolio</title>
+    <!-- Keywords -->
+    <meta name="keywords" content="David Guben, david guben, David, Guben, david, guben, portfolio, software, engineering, development, applications, apps, apple, ios, android, mobile, desktop, windows, mac, pc, computer, computer science, rutgers, rutgers university, app development, software development, software engineering, science, game development, gaming, dev, web, web development, david guben dev, david guben development, david guben web development, david guben software development, david guben software, david guben app, david guben app development, david guben application development, david guben app dev, app dev, david guben computer, david guben rutgers, david guben computer science, david justin, david justin guben">
 
-		<!-- Meta Description -->
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
 
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-		<meta name="description" content="David Guben's Online Portfolio.">
-		<meta name="keywords" content="David Guben, david guben, David, Guben, david, guben, portfolio, software, engineering, development, applications, apps, apple, ios, android, mobile, desktop, windows, mac, pc, computer, computer science, rutgers, rutgers university, app development, software development, software engineering, science, game development, gaming, dev, web, web development, david guben dev, david guben development, david guben web development, david guben software development, david guben software, david guben app, david guben app development, david guben application development, david guben app dev, app dev, david guben computer, david guben rutgers, david guben computer science, david justin, david justin guben">
-        <meta name="author" content="David Guben">
+    <!-- CSS Files
+    ================================================== -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/coloring.css" type="text/css">
 
-		<!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- color scheme -->
+    <link rel="stylesheet" href="css/colors/red.css" type="text/css">
+</head>
+
+<body id="homepage" class="homepage">
+
+    <div id="wrapper" class="fullwidth no-padding">
 		
-		<!-- Google Font -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<div id="bg-overlay"></div>
+		
+        <div id="main">
 
-		<!-- CSS
-		================================================== -->
-		<!-- Fontawesome Icon font -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-		<!-- Twitter Bootstrap css -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- jquery.fancybox  -->
-        <link rel="stylesheet" href="css/jquery.fancybox.css">
-		<!-- animate -->
-        <link rel="stylesheet" href="css/animate.css">
-		<!-- Main Stylesheet -->
-        <link rel="stylesheet" href="css/main.css">
-		<!-- media-queries -->
-        <link rel="stylesheet" href="css/media-queries.css">
+            <!-- TOP BAR BEGIN -->
+            <div id="top-bar" class="transparent dark">
 
-		<!-- Modernizer Script for old Browsers -->
-        <script src="js/modernizr-2.6.2.min.js"></script>
-    </head>
-	
-    <body id="body">
-		<!-- preloader -->
-		<div id="preloader">
-			<img src="img/preloader.gif" alt="Preloader">
-		</div>
-		<!-- end preloader -->
-
-        <!-- 
-        Fixed Navigation
-        ==================================== -->
-        <header id="navigation" class="navbar-fixed-top navbar">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-bars fa-2x"></i>
-                    </button>
-					<!-- /responsive nav button -->
-					
-					<!-- logo -->
-                    <a class="navbar-brand" href="#body">
-						<h1 id="logo">
-							<!-- <img src="#" alt="Logo"> -->
-						</h1>
-					</a>
-					<!-- /logo -->
+                <div id="logo">
+                    David Guben
                 </div>
 
-				<!-- main nav -->
-                <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                    <ul id="nav" class="nav navbar-nav">
-                        <li class="current"><a href="#body">Home</a></li>
-                        <!-- <li><a href="#features">Features</a></li> -->
-                        <li><a href="#works">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                <nav>
+                    <ul id="mainmenu">
+                        <li><a href="#section-home" class="active"><span>01</span>Home</a></li>
+                        <li><a href="#section-services"><span>02</span>Services</a></li>
+                        <!-- <li><a href="#section-experiences"><span>03</span>Experiences</a></li> -->
+                        <li><a href="#section-portfolio"><span>03</span>Portfolio</a></li>
+                        <li><a href="https://room2rental.com" target="_blank"><span>04</span>Room2Rental</a></li>
+                        <li><a href="#section-contact"><span>05</span>Contact</a></li>
                     </ul>
                 </nav>
-				<!-- /main nav -->
-				
+
+                <span id="menu-btn">
+					<span class="lt"></span>
+					<span class="lm"></span>
+					<span class="lb"></span>
+				</span>
+
+                <div id="mp-col">
+                    <a href="#" class="btn-download light"><span class="id-color"><i class="fa fa-file-pdf-o"></i></span>Download CV</a>
+                </div>
+
+                <div class="clearfix"></div>
+
             </div>
-        </header>
-		
-		<section id="slider">
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			
-				<!-- Indicators bullet -->
-				<ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				</ol>
-				<!-- End Indicators bullet -->				
-				
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
+            <!-- TOP BAR CLOSE -->
+
+            <!-- CONTENT BEGIN -->
+            <div id="content">
+
+                <div class="page-deco">+208 333 9296</div>
+
+                <div class="social-icons-fixed">
+                    <div class="sc-inner">
+                        <a href="https://github.com/DavidGuben" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+                        <a href="https://www.behance.net/davidjustin" target="_blank"><i class="fa fa-behance fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+
+                <!-- section begin -->
+                <section id="section-home" aria-label="section" class="full-height no-top no-bottom text-light" data-bgimage="url(images/background/2.jpg)">
+					<div id="particles-js"></div>
+                    <div class="overlay-bg t50">
+                        <div class="middle">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <p class="lead"><span class="id-color">Hi, welcome to my personal portfolio.</span></p>
+                                        <div class="spacer20"></div>
+                                        <div class="h1_big">My name David Guben, I am a
+                                            <br>  
+                                            <div class="typed-strings">
+                                                <p>Software Engineer</p>
+                                                <p>App Developer</p>
+                                                <p>Game Developer</p>
+                                            </div>
+                                            <div class="typed"></div>
+                                        </div>
+                                        <div class="spacer60"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#section-services" class="scroll-to">
+                        <span class="arrow bounce">
+							<i class="arrow_down"></i>
+                        </span>
+                    </a>
+                </section>
+                <!-- section close -->
+
+                <!-- section begin -->
+                <section id="section-services" class="fluid">
+                    <div class="container-fluid">
+                        <div class="row-fluid table">
+                            <div class="col-md-6 va-top">
+                                <div class="img-fx">
+                                    <img src="images/misc/1.jpg" alt="">
+                                    <div class="img-url"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="content-wrap">
+
+                                    <!-- service box begin -->
+                                    <div class="feature-box mb30">
+                                        <div class="inner">
+                                            <div class="text">
+                                                <i class="icon_lightbulb id-color"></i>
+                                                <h3>Software Development</h3>
+                                            </div>
+                                            <i class="big icon_lightbulb id-color"></i>
+                                        </div>
+                                    </div>
+                                    <!-- service box close -->
+
+                                    <!-- service box begin -->
+                                    <div class="feature-box mb30">
+                                        <div class="inner">
+                                            <div class="text">
+                                                <i class="icon_flowchart_alt id-color"></i>
+                                                <h3>App Development</h3> 
+                                            </div>
+                                            <i class="big icon_flowchart_alt id-color"></i>
+                                        </div>
+                                    </div>
+                                    <!-- service box close -->
+
+                                    <!-- service box begin -->
+                                    <div class="feature-box mb30">
+                                        <div class="inner">
+                                            <div class="text">
+                                                <i class="icon_cogs id-color"></i>
+                                                <h3>Game Development</h3> 
+                                            </div>
+                                            <i class="big icon_cogs id-color"></i>
+                                        </div>
+                                    </div>
+                                    <!-- service box close -->
+
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- section close -->
+
+                <!-- section begin -->
+                <!-- <section id="section-experiences" class="fluid">
+                    <div class="container-fluid">
+                        <div class="row-fluid table">
+                            <div class="col-md-6 va-top">
+                                <div class="img-fx">
+                                    <img src="images/misc/2.jpg" alt="">
+                                    <div class="img-url"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="content-wrap">
+                                    <p class="lead">
+                                        I am a Software Engineer from New Jersey, with a strong focus in UI/UX design. I love to get new experiences and always learn from my surroundings. I've done more than 300 projects. I looking forward to any opportunities and challenges.
+                                    </p>
+
+                                    <div class="spacer30"></div>
+
+                                    <div class="de_tab tab_style_2">
+                                        <ul class="de_nav">
+                                            <li class="active">
+                                                <span>Works</span>
+                                            </li>
+                                            <li>
+                                                <span>Education</span>
+                                            </li>
+                                        </ul>
+
+                                        <div class="de_tab_content text-left">
+
+                                            <div class="tab_single_content">
+                                                <div class="exp-box">
+                                                    <h5>2014 - now</h5>
+                                                    <h4>Product Designer Freelancer</h4>
+                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                                                </div>
+                                                <div class="exp-box">
+                                                    <h5>2010 - 2014</h5>
+                                                    <h4>Product Designer at Apple</h4>
+                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                                                </div>
+                                                <div class="exp-box">
+                                                    <h5>2006 - 2010</h5>
+                                                    <h4>Product Designer at Samsung</h4>
+                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="tab_single_content">
+                                                <div class="exp-box">
+                                                    <h5>2014</h5>
+                                                    <h4>Product Design, Harvard University</h4>
+                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                                                </div>
+                                                <div class="exp-box">
+                                                    <h5>2010</h5>
+                                                    <h4>Master of Design, University of California</h4>
+                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                                                </div>
+                                                <div class="exp-box">
+                                                    <h5>2006</h5>
+                                                    <h4>Bachelor of Arts, Standford University</h4>
+                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </section> -->
+                <!-- section close -->
+
+                <!-- section begin -->
+                <section id="section-portfolio" aria-label="section-portfolio" class="fluid overwidth">
+                    <div class="container-fluid">
+                        <div id="album-carousel-2" class="owl-carousel owl-theme">
+                            <div class="carousel-item click" data-bgimage="url(images/portfolio/1.jpg)" data-url="portfolio-single-1.html">
+                                <div class="mask s2 full-height">
+                                    <div class="cover">
+                                        <div class="text">
+                                            <h2>Room2Rental</h2>
+                                            <div class="tiny-border"></div>
+                                            <div class="clearfix"></div>
+                                            <p>Turn your room into a rental or rent a room on a month-to-month basis.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item click" data-bgimage="url(images/portfolio/2.jpg)" data-url="portfolio-single-2.html">
+                                <div class="mask s2 full-height">
+                                    <div class="cover">
+                                        <div class="text">
+                                            <h2>HP Sprocket</h2>
+                                            <div class="tiny-border"></div>
+                                            <div class="clearfix"></div>
+                                            <p>Companion app for the HP Sprocket mini-printer.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item click" data-bgimage="url(images/portfolio/3.jpg)" data-url="portfolio-single-3.html">
+                                <div class="mask s2 full-height">
+                                    <div class="cover">
+                                        <div class="text">
+                                            <h2>KODAK Smile Classic</h2>
+                                            <div class="tiny-border"></div>
+                                            <div class="clearfix"></div>
+                                            <p>Companion app for the KODAK Smile Classic 2-in-1 Camera and Printer.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item click" data-bgimage="url(images/portfolio/4.jpg)" data-url="portfolio-single-4.html">
+                                <div class="mask s2 full-height">
+                                    <div class="cover">
+                                        <div class="text">
+                                            <h2>TruVitals</h2>
+                                            <div class="tiny-border"></div>
+                                            <div class="clearfix"></div>
+                                            <p>Health-monitoring application.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item click" data-bgimage="url(images/portfolio/5.jpg)" data-url="portfolio-single-5.html">
+                                <div class="mask s2 full-height">
+                                    <div class="cover">
+                                        <div class="text">
+                                            <h2>KODAK Luma</h2>
+                                            <div class="tiny-border"></div>
+                                            <div class="clearfix"></div>
+                                            <p>Companion app for the KODAK Luma portable smart projector.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item click" data-bgimage="url(images/portfolio/2.jpg)" data-url="#">
+                                <div class="mask s2 full-height">
+                                    <div class="cover">
+                                        <div class="text">
+                                            <h2>Section in Progress</h2>
+                                            <div class="tiny-border"></div>
+                                            <div class="clearfix"></div>
+                                            <p>I am adding my projects one by one. All of them will be availavle to view here ASAP.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
 					
-					<!-- single slide -->
-					<div class="item active" style="background-image: url(img/banner.jpg);">
-						<div class="circular_image">
-							<img src="img/profile_pic.jpeg" alt="david guben">
-						</div>
-						<div class="carousel-caption">
-							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">David<span> Guben</span></h2>
-							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/Software</span> Engineer</h3>
-							<p data-wow-duration="1000ms" class="wow slideInRight animated">Online Portfolio</p>
-							
-							<ul class="social-links text-center">
-								<li><a href="https://linkedin.com/in/david-guben/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
-								<li><a href="https://github.com/DavidGuben" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
-								<li><a href="https://www.behance.net/davidjustin" target="_blank"><i class="fa fa-behance fa-lg"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end single slide -->
-					
-					<!-- single slide -->
-					<div class="item" style="background-image: url(img/banner2.jpg);">
-						<div class="circular_image">
-							<img src="img/profile_pic.jpeg" alt="david guben">
-						</div>
-						<div class="carousel-caption">
-							<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">David<span> Guben</span></h2>
-							<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color">/App</span> Developer</h3>
-							<p data-wow-duration="500ms" class="wow slideInRight animated">Online Portfolio</p>
-							
-							<ul class="social-links text-center">
-								<li><a href="https://linkedin.com/in/david-guben/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
-								<li><a href="https://github.com/DavidGuben" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
-								<li><a href="https://www.behance.net/davidjustin" target="_blank"><i class="fa fa-behance fa-lg"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end single slide -->
-				</div>
-				<!-- End Wrapper for slides -->	
-			</div>
-		</section>
+					<div class="pf-nav left"><i class="arrow_left"></i></div>
+					<div class="pf-nav right"><i class="arrow_right"></i></div>
+                </section>
+                <!-- section close -->
 
-		<section id="facts" class="facts">
-			<div class="parallax-overlay">
-				<div class="container">
-					<div class="row number-counters">
-						
-						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-							<h2>Some Fun Facts</h2>
-							<div class="devider"><i class="fa fa-star-o fa-lg"></i></div>
-						</div>
-						
-						<!-- first count item -->
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-							<div class="counters-item">
-								<i class="fa fa-clock-o fa-3x"></i>
-								<strong data-to="8000">0</strong><strong>+</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Hours of Work</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-							<div class="counters-item">
-								<i class="fa fa-users fa-3x"></i>
-								<strong data-to="100">0</strong><strong>+</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Satisfied Clients</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-							<div class="counters-item">
-								<i class="fa fa-rocket fa-3x"></i>
-								<strong data-to="300">0</strong><strong>+</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Projects Delivered</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-							<div class="counters-item">
-								<i class="fa fa-hand-o-down fa-3x"></i>
-								<strong data-to="999999">0</strong><strong>+</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Buttons Pressed</p>
-							</div>
-						</div>
-						<!-- end first count item -->
-				
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section id="works" class="works clearfix">
-			<div class="container">
-				<div class="row">
-				
-					<div class="sec-title text-center">
-						<h2>Projects</h2>
-						<div class="devider"><i class="fa fa-star-o fa-lg"></i></div>
-					</div>
-					
-					<div class="sec-sub-title text-center">
-						<!-- <p>This section is a work in progress. I am adding detailed sections on each project and they will be all added in the coming weeks. <a href="list.html" target="_blank" style="color: grey; text-decoration: underline; font-weight: bolder;">Here</a> is a list of most of the apps in the mean time.</p> -->
-						<p>I specialize in the MERN-Stack as a full-stack developer. I develop applications for iOS, Android, and the web. I have over 7 years of experience developing all kinds of apps from utility applications to video games. Here is a list of some of the projects I worked on.</p>
-					</div>
-					
-					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
-						<ul class="text-center">
-							<li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
-							<li><a href="javascript:;" data-filter=".videogames" class="filter">Video Games</a></li>
-							<li><a href="javascript:;" data-filter=".web" class="filter">web</a></li>
-							<li><a href="javascript:;" data-filter=".ios" class="filter">iOS</a></li>
-							<li><a href="javascript:;" data-filter=".android" class="filter">Android</a></li>
-						</ul>
-					</div>
-					
-				</div>
-			</div>
-			
-			
-			<div class="project-wrapper">
+                <!-- section begin -->
+                <section id="section-blog" class="fluid">
+                    <div class="container-fluid">
+                        <div class="row-fluid table">
+                            <div class="col-md-6 va-top">
+                                <div class="img-fx">
+                                    <img src="images/misc/3.jpg" alt="">
+                                    <div class="img-url"></div>
+                                </div>
+                            </div>
 
-				
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-1.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/truvitals/id1579078490" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.ge_thermometer_android&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>TruVitals</h4>
-						<p>health-monitoring application. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
-			
-				
-				
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-2.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/livefine/id1575380221" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.caglobal.livefine&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>LiveFine</h4>
-						<p>Smart device controller application. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-3.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/arf-pets/id1524822064" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.caglobal.arfpets&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>Arf Pets</h4>
-						<p>Smart pet feeder controller application. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/kodak-step-prints/id1494704742" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.kodak.steptouch&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>KODAK Step Prints</h4>
-						<p>Bluetooth camera controller app. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
-			
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-5.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/kodak-luma/id1490761406" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.caglobal.kodakluma&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>KODAK Luma</h4>
-						<p>Bluetooth Projector controller app. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item ios">
-					<img src="img/works/item-6.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/ivation-keeps-padlock/id967538794" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<h4>Ivation Keeps Padlock</h4>
-						<p>Bluetooth smart padlock app. <br/>(iOS)</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-7.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/my-ivation/id1470570286" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.caglobal.iot&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>My Ivation</h4>
-						<p>Suite of smart devices controller app. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-8.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/hp-sprocket/id1132331237" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.hp.impulse.sprocket&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>HP Sprocket</h4>
-						<p>Bluetooth wireless mobile mini-printer app. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
+                            <div class="col-md-6">
+                                <div class="content-wrap">
 
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-9.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/kodak-smile-classic-2-in-1/id1448368147" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.kodakclassic&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>KODAK Smile Classic</h4>
-						<p>Take and print photos wirelessly with the KODAK Classic Instant Camera. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
+                                    <div class="bloglist s1 item">
+                                        <div class="post-content">
+                                            <div class="date-box">
+                                                <div class="d">28</div>
+                                                <div class="m">MAR</div>
+                                            </div>
+                                            <div class="post-text">
+                                                <h3><a href="blog-single.html">The Best Website Design of 2022</a></h3>
+                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-10.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/kodak-smile-classic-2-in-1/id1448368147" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.kodakclassic&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>KODAK Smile Classic</h4>
-						<p>Take and print photos wirelessly with the KODAK Classic Instant Camera. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
+                                    <div class="bloglist s1 item">
+                                        <div class="post-content">
+                                            <div class="date-box">
+                                                <div class="d">26</div>
+                                                <div class="m">MAR</div>
+                                            </div>
+                                            <div class="post-text">
+                                                <h3><a href="blog-single.html">Make Better User Interface</a></h3>
+                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-11.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/polaroid-mint/id1437358918" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.polaroidmint&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>Polaroid Mint</h4>
-						<p>Print and edit any photo wirelessly with the Polaroid Mint Printer. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
+                                    <div class="bloglist s1 item">
+                                        <div class="post-content">
+                                            <div class="date-box">
+                                                <div class="d">24</div>
+                                                <div class="m">MAR</div>
+                                            </div>
+                                            <div class="post-text">
+                                                <h3><a href="blog-single.html">The Importance Of Web Design</a></h3>
+                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-12.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/kodak-smile/id1447241173" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.kodaksmile&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>KODAK Smile</h4>
-						<p>Print and edit any photo wirelessly with the KODAK Smile Printer. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
+                                    <div class="bloglist s1 item">
+                                        <div class="post-content">
+                                            <div class="date-box">
+                                                <div class="d">22</div>
+                                                <div class="m">MAR</div>
+                                            </div>
+                                            <div class="post-text">
+                                                <h3><a href="blog-single.html">10 Web Design Tips From Experts</a></h3>
+                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-13.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/polaroid-zip/id1252079118" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.polaroid.printerzips&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>Polaroid Zip</h4>
-						<p>Print and edit any photo wirelessly with the Polaroid Zip Printer. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
+                                    <div class="bloglist s1 item">
+                                        <div class="post-content">
+                                            <div class="date-box">
+                                                <div class="d">18</div>
+                                                <div class="m">MAR</div>
+                                            </div>
+                                            <div class="post-text">
+                                                <h3><a href="blog-single.html">Make Responsive Website Layouts</a></h3>
+                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-14.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/polaroid-pop/id1272136867" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.polaroidpop&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>Polaroid POP</h4>
-						<p>Print and edit any photo wirelessly with the Polaroid POP Printer. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
+                                </div>
+                            </div>
 
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-15.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/polaroid-snaptouch/id1255930529" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.polaroid.universalapp&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>Polaroid Snap Touch</h4>
-						<p>Take, Print and edit any photo wirelessly with the Polaroid Snap Touch Instant Camera. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- section close -->
 
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-16.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/us/app/lifeprint-photos/id972104022" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.lifeprint.digitalframe&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>Lifeprint Digital Frame</h4>
-						<p>Lifeprint Frames lets you stay connected and share your latest photos with loved ones around the world. <br/>(iOS & Android)</p>
-					</figcaption>
-				</figure>
+                
 
-				<figure class="mix work-item ios">
-					<img src="img/works/item-17.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/polaroid-snaptouch/id1255930529" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<a class="fancybox" rel="works" title="" href="https://play.google.com/store/apps/details?id=com.polaroid.universalapp&hl=en_US&gl=US" target="_blank">
-							<i class="fa fa-android fa-lg"></i>
-						</a>
-						<h4>SkyMall Mobile Photo Printer</h4>
-						<p>Print and edit any photo wirelessly with the SkyMall Mobile Printer. <br/>(iOS)</p>
-					</figcaption>
-				</figure>
+                <!-- section begin -->
+                <section id="section-contact" class="fluid">
+                    <div class="container-fluid">
+                        <div class="row-fluid table">
+                            <div class="col-md-6 va-top">
+                                <div class="img-fx">
+                                    <img src="images/misc/4.jpg" alt="">
+                                    <div class="img-url"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content-wrap">
+                                    <div class="in-box">
+                                        <ul class="data">
+                                            <li>
+                                                <div>E-mail</div>
+                                                <div>contact@davidguben.com</div>
+                                            </li>
+                                            <li>
+                                                <div>Phone</div>
+                                                <div>(732) 336 0219</div>
+                                            </li>
+                                            <li>
+                                                <div>Website</div>
+                                                <div>www.davidguben.com</div>
+                                            </li>
+                                        </ul>
+                                    </div>
 
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-18.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/weighbetter/id1038312320" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<h4>WeighBetter</h4>
-						<p>This application allows you to easily monitor essential health and fitness data. <br/>(iOS)</p>
-					</figcaption>
-				</figure>
+                                    <div class="spacer60"></div>
 
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-19.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/polaroid-cube/id1005067042" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<h4>Polaroid Cube+</h4>
-						<p>The Polaroid CUBE+ app lets you sync your Polaroid Cube+ camera with your iOS device.<br/>(iOS)</p>
-					</figcaption>
-				</figure>
+                                    <h3>Send message</h3>
+                                    <div class="spacer20"></div>
+                                    <form name="contactForm" id='contact_form' class="form-transparent" method="post" action='email.php'>
 
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-20.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://apps.apple.com/cv/app/dashcam-remote/id1029734216" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<h4>DashCam Remote</h4>
-						<p>The easy-to-use Ivation app lets you view live and recorded dashcam footage on your Smartphone.  <br/>(iOS)</p>
-					</figcaption>
-				</figure>
+                                        <div class="field-set">
+                                            <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
+                                            <div class="line-fx"></div>
+                                        </div>
 
-				<figure class="mix work-item ios android">
-					<img src="img/works/item-21.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="" target="_blank">
-							<i class="fa fa-apple fa-lg"></i>
-						</a>
-						<h4>Polaroid xs100i Remote</h4>
-						<p>The Polaroid CUBE+ app lets you sync your Polaroid xs100i camera with your iOS device. <br/>(iOS)</p>
-					</figcaption>
-				</figure>
+                                        <div class="field-set">
+                                            <input type='text' name='email' id='email' class="form-control" placeholder="Your Email">
+                                            <div class="line-fx"></div>
+                                        </div>
 
-				<figure class="mix work-item videogames">
-					<img src="img/works/item-22.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="" href="https://davidguben.github.io/vfolio/" target="_blank">
-							<i class="fa fa-gamepad fa-lg"></i>
-						</a>
-						<h4>vPyro</h4>
-						<p>A game I am developing in my free time. <br/>(iOS, Android, Web)</p>
-					</figcaption>
-				</figure>
-			</div>
-		</section>	
-		
-				
-		
-		<section id="contact" class="contact">
-			<div class="container">
-				<div class="row mb50">
-				
-					<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
-						<h2>Let’s Discuss</h2>
-						<div class="devider"><i class="fa fa-star-o fa-lg"></i></div>
-					</div>
-					
-					<div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
-						<p>I will develop an application from the ground up for you. I handle the design and development of the project. Reach out to me for a quote. I do not take every project. I only take on projects that interest me. Feel free to reach out.</p>
-					</div>
-					
-					<!-- contact address -->
-					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
-						<div class="contact-address">
-							<h3>Contact info</h3>
-							<p>New York. United States.</p>
-							<p>davidguben@gmail.com</p>
-						</div>
-					</div>
-					<!-- end contact address -->
-					
-					<!-- contact form -->
-					<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="contact-form">
-							<h3>Say hello!</h3>
-							<form action="https://formspree.io/f/mnqwojkl" id="contact-form" method="POST" enctype=”multipart/form-data” name="email_form" autocomplete="off">
-								<div class="input-group name-email">
-									<div class="input-field">
-										<input type="text" name="name" id="name" placeholder="Name" class="form-control" required>
-									</div>
-									<div class="input-field">
-										<input type="email" name="email" id="email" placeholder="Email" class="form-control" required>
-									</div>
-								</div>
-								<div class="input-group">
-									<textarea name="message" id="message" placeholder="Message" class="form-control" required></textarea>
-								</div>
-								<div class="input-group">
-									<input type="submit" id="form-submit" class="pull-right" value="Send message">
-								</div>
-							</form>
-						</div>
-					</div>
-					<!-- end contact form -->
-					
-					<!-- footer social links -->
-					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<ul class="footer-social">
-							<li><a href="https://www.behance.net/davidjustin/" target="_blank"><i class="fa fa-behance fa-2x"></i></a></li>
-							<li><a href="https://linkedin.com/in/david-guben/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
-							<li><a href="https://github.com/DavidGuben/" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
-						</ul>
-					</div>
-					<!-- end footer social links -->
-					
-				</div>
-			</div>
-			
-			<!-- Google map -->
-			<!-- <div id="map_canvas" class="wow bounceInDown animated" data-wow-duration="500ms"></div> -->
-			<!-- End Google map -->
-			
-		</section>
-			
-		<footer id="footer" class="footer">
-			<div class="container">
-				<div class="row">
-				
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
-						<div class="footer-single">
-							<img src="#" alt="">
-							<p>I update this site periodically with new projects every now and then.</p>
-						</div>
-					</div>
-				
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="footer-single">
-							<h6>Subscribe </h6>
-							<form action="#" class="subscribe">
-								<input type="text" name="subscribe" id="subscribe">
-								<input type="submit" value="&#8594;" id="subs">
-							</form>
-							<p>Subscribe to receive project and site updates.</p>
-						</div>
-					</div>
-				
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="footer-single">
-							<h6>Site Map</h6>
-							<ul>
-								<li><a href="#">Contact</a></li>
-								<li><a href="#">Work</a></li>
-								<li><a href="#">Home</a></li>
-								<li><a href="#">Games</a></li>
-							</ul>
-						</div>
-					</div>
-				
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-						<div class="footer-single">
-							<h6>Socials</h6>
-							<ul>
-								<li><a href="https://linkedin.com/in/david-guben/" target="_blank">Linkedin</a></li>
-								<li><a href="https://www.behance.net/davidjustin" target="_blank">Behance</a></li>
-								<li><a href="https://github.com/DavidGuben" target="_blank">GitHub</a></li>
-							</ul>
-						</div>
-					</div>
-					
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="copyright text-center">
-							Copyright © 2022 David Guben. All rights reserved.
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-		
-		<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+                                        <div class="field-set">
+                                            <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone">
+                                            <div class="line-fx"></div>
+                                        </div>
 
-		<!-- Essential jQuery Plugins
-		================================================== -->
-		<!-- Main jQuery -->
-        <script src="js/jquery-1.11.1.min.js"></script>
-		<!-- Single Page Nav -->
-        <script src="js/jquery.singlePageNav.min.js"></script>
-		<!-- Twitter Bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
-		<!-- jquery.fancybox.pack -->
-        <script src="js/jquery.fancybox.pack.js"></script>
-		<!-- jquery.mixitup.min -->
-        <script src="js/jquery.mixitup.min.js"></script>
-		<!-- jquery.parallax -->
-        <script src="js/jquery.parallax-1.1.3.js"></script>
-		<!-- jquery.countTo -->
-        <script src="js/jquery-countTo.js"></script>
-		<!-- jquery.appear -->
-        <script src="js/jquery.appear.js"></script>
-		<!-- Contact form validation -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-		<!-- Google Map -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
-		<!-- jquery easing -->
-        <script src="js/jquery.easing.min.js"></script>
-		<!-- jquery easing -->
-        <script src="js/wow.min.js"></script>
-		<script>
-			var wow = new WOW ({
-				boxClass:     'wow',      // animated element css class (default is wow)
-				animateClass: 'animated', // animation css class (default is animated)
-				offset:       120,          // distance to the element when triggering the animation (default is 0)
-				mobile:       false,       // trigger animations on mobile devices (default is true)
-				live:         true        // act on asynchronously loaded content (default is true)
-			  }
-			);
-			wow.init();
-		</script> 
-		<!-- Custom Functions -->
-        <script src="js/custom.js"></script>
-		
-		<script type="text/javascript">
-			$(function(){
-				/* ========================================================================= */
-				/*	Contact Form
-				/* ========================================================================= */
-				
-				$('#contact-form').validate({
-					rules: {
-						name: {
-							required: true,
-							minlength: 2
-						},
-						email: {
-							required: true,
-							email: true
-						},
-						message: {
-							required: true
-						}
-					},
-					messages: {
-						name: {
-							required: "come on, you have a name don't you?",
-							minlength: "your name must consist of at least 2 characters"
-						},
-						email: {
-							required: "no email, no message"
-						},
-						message: {
-							required: "um...yea, you have to write something to send this form.",
-							minlength: "thats all? really?"
-						}
-					},
-					submitHandler: function(form) {
-						$(form).ajaxSubmit({
-							type:"POST",
-							data: $(form).serialize(),
-							url:"",
-							success: function() {
-								$('#contact-form :input').attr('disabled', 'disabled');
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$(this).find(':input').attr('disabled', 'disabled');
-									$(this).find('label').css('cursor','default');
-									$('#success').fadeIn();
-								});
-							},
-							error: function() {
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$('#error').fadeIn();
-								});
-							}
-						});
-					}
-				});
-			});
-		</script>
-    </body>
+                                        <div class="field-set">
+                                            <textarea name='message' id='message' class="form-control" placeholder="Your Message"></textarea>
+                                            <div class="line-fx"></div>
+                                        </div>
+
+                                        <div id='submit'>
+                                            <input type='submit' id='send_message' value='Send' class="btn btn-custom">
+                                        </div>
+                                        <div id='mail_success' class='success'>Your message has been sent successfully.
+                                        </div>
+                                        <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
+
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- section close -->
+
+            </div>
+            <!-- CONTENT CLOSE -->
+
+        </div>
+
+        <div id="preloader">
+            <div class="s1">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/enquire.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.plugin.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/typed-custom.js"></script>
+	<script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/designesia.js"></script>
+
+</body>
+
 </html>
