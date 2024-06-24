@@ -221,7 +221,7 @@
 				jQuery('.owl-slide-wrapper').find("img").css("width","100%");
 				jQuery('.owl-slide-wrapper').find("img").css("height","auto");
 			}
-	};
+	}
 	/* --------------------------------------------------
 	 * plugin | owl carousel
 	 * --------------------------------------------------*/
@@ -541,7 +541,7 @@
 				scrollTop: 0
 			}, 700);
 		});
-	};
+	}
 
 	/* --------------------------------------------------
 	 * counting number
